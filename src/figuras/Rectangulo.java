@@ -23,4 +23,9 @@ public class Rectangulo {
         resultado = lado1 * lado2;
         return resultado;
     }
+    public double obtenerPerimetro(){
+        double resultado;
+        resultado = (lado1 * 2) + (lado2 * 2);
+        return resultado;
+    }
 }
